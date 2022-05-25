@@ -1,0 +1,41 @@
+.Header {
+     grid-area: Header;
+}
+
+.Nav {
+    grid-area: Nav;
+}
+
+.Img {
+    grid-area: Img;
+}
+
+.Foto1 {
+    grid-area: Foto1;
+}
+
+
+.Articulo1 {
+    grid-area: Articulo1;
+}
+
+.Foto2 {
+    grid-area: Foto2;
+}
+
+.Articulo2 {
+    grid-area: Articulo2;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "Header Header Header"
+    "Nav Nav Nav"
+    "Img Img Img"
+    "Foto1 Articulo1 Articulo1"
+    "Foto2 Articulo2 Articulo2"
+    ;
+
+}

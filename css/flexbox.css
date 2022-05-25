@@ -1,0 +1,16 @@
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.Img {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
